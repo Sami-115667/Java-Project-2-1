@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hall_management.SigninController">
+    <children>
+        <AnchorPane layoutX="-7.0" prefHeight="153.0" prefWidth="827.0" style="-fx-background-color: #0589ff;">
+            <children>
+                <Text layoutX="117.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Student registration?">
+                    <font>
+                        <Font size="32.0" />
+                    </font>
+                </Text>
+                <Button fx:id="registration" layoutX="551.0" layoutY="60.0" mnemonicParsing="false" onAction="#enterRegistration" style="-fx-background-color: red;" text="Register" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Button fx:id="student" layoutX="180.0" layoutY="224.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="95.0" text="Student" />
+        <Button fx:id="provost" layoutX="575.0" layoutY="224.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="95.0" text="Provost" />
+        <Button fx:id="stuff" layoutX="180.0" layoutY="341.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="95.0" text="Stuff" />
+        <Button fx:id="notice" layoutX="586.0" layoutY="341.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="95.0" text="Notice" />
+        <Button fx:id="canteen" layoutX="180.0" layoutY="458.0" mnemonicParsing="false" onAction="#canteen" prefHeight="55.0" prefWidth="95.0" text="Canteen" />
+        <Button fx:id="about" layoutX="586.0" layoutY="458.0" mnemonicParsing="false" onAction="#about" prefHeight="55.0" prefWidth="95.0" text="About" />
+        <ImageView fitHeight="95.0" fitWidth="101.0" layoutX="79.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="95.0" fitWidth="101.0" layoutX="79.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="88.0" fitWidth="131.0" layoutX="55.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@student.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="73.0" fitWidth="76.0" layoutX="94.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@stuff.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="95.0" fitWidth="101.0" layoutX="465.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@provost.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="73.0" fitWidth="70.0" layoutX="481.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@notice.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="64.0" fitWidth="95.0" layoutX="80.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@food.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="88.0" fitWidth="131.0" layoutX="450.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@about.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

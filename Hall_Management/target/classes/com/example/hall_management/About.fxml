@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="818.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hall_management.SigninController">
+   <children>
+      <Accordion layoutX="230.0" layoutY="7.0" />
+      <AnchorPane layoutY="42.0" prefHeight="32.0" prefWidth="818.0" style="-fx-background-color: #0589ff;" />
+      <Text fill="#2b0505" layoutX="345.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ABOUT" textAlignment="CENTER" wrappingWidth="127.883544921875">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="#bc3d3d" fontSmoothingType="LCD" layoutX="243.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="University of Dhaka" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="22.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="University of Dhaka the oldest and largest university in Bangladesh and one of the oldest and most distinguished institutions for higher education and research in the Indian Subcontinent. The University was established in 1921 under the Dacca University Act 1920 of the Indian Legislative Council. It was established in the Ramna area of Dhaka City with approximately 600 acres of land. A large portion of its initial infrastructure comprised with the teachers of the Dhaka College and its buildings (present Curzon Hall). It opened its doors to academic activities on 1 July 1921 as a residential university. The University started its activities with 3 faculties (Arts, Science and Law), 12 teaching departments, 60 teachers, 847 students and 3 residential halls. There were eight departments under Arts faculty viz. Sanskrit and Bangla, English, Education, History, Arabic and Islamic Studies, Persian and Urdu, Philosophy, and Political Economy; the faculty of Science started with three departments viz. Physics, Chemistry and Mathematics; and the faculty of Law started with the Department of Law. Out of the total students enrolled in the three faculties 386 were admitted in the Dhaka (Shahidullah) Hall, 313 in the Jagannath Hall and 178 in the Salimullah Muslim Hall as resident and non resident students.Today, there are 13 faculties, 67 departments, 8 institutes, 30 Bureau and research centres, 1,693 teachers, about 32,540 students and 17 residential halls and three hostels. Two-thirds of the present faculty members possess degrees from universities of Europe, North America, Asia and Australia. Many of them achieved international renown for their scholarship. Many also have the experience of teaching in well-known institutions of higher learning abroad. Dr. Muhammad Yunus, a student of this university and a renowned economist of Bangladesh and founder of the Grameen Bank, won the Nobel Prize for peace in 2006.Initially, the teachers and students of the university worked hard to build up an outstanding record of academic achievement, earning for itself the reputation of being the 'Oxford of the East'. The university contributed to the emergence of a generation of leaders who distinguished themselves in different walks of life.Until the Partition of Bengal in 1947, it maintained its unique character of being one of the few residential institutions of higher learning in Asia. In 1947, it assumed academic authority over all educational institutions above the secondary level falling within East Bengal. In the process it became a teaching-cum-affiliating institution. This transformation, coupled with its unprecedented growth in the years that followed, put strains beyond reckoning on its human as well as material resources.The emergence of several new universities later did little to ease the burden of Dhaka University. Its academic life was severely disrupted during the war of liberation when a large number of its distinguished teachers and a considerable number of students and employees lost their lives.The teachers, who were killed, include Dr. GC Dev (Department of Philosophy), Dr. ANM Muniruzzaman (Department of Statistics), Santosh C Bhattacharya (Department of History), Dr. Jyotirmoy Guha Thakurta (Department of English), AN Munir Chowdhury (Department of Bangla), Mofazzal Haider Chowdhury (Department of Bangla), Dr. Abul Khair (Department of History), Dr. Serajul Hoque Khan (Institute of Education and Research), Rashidul Hasan (Department of English), Anwar Pasha (Department of Bangla), Dr. Fazlur Rahman (Department of Soil Science), Giasuddin Ahmed (Department of History), Dr. Faizul Mohee (Institute of Education and Research), Abdul Muktadir (Department of Geology), Sarafat Ali (Department of Mathematics), Sadat Ali (Institute of Education and Research), Ataur Rahman Khan Khadim (Department of Mathematics), and Anudaipayan Bhattachariya (Department of Physics). The university's chief medical officer, Dr. Mohammad Mortuza, and a teacher of the University Laboratory School, Mohammad Sadeq were also killed.Residential Hall/Hostel." textAlignment="JUSTIFY" wrappingWidth="773.1830310821533">
+         <font>
+            <Font name="Calibri" size="13.0" />
+         </font>
+      </Text>
+      <Button layoutX="271.0" layoutY="605.0" mnemonicParsing="false" onAction="#halls" prefHeight="35.0" prefWidth="83.0" style="-fx-background-color: red;" text="HALLS" textFill="#331010">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="409.0" layoutY="605.0" mnemonicParsing="false" onAction="#teacherLogin" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: purple;" text="BACK" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

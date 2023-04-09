@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="818.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hall_management.SigninController">
+    <children>
+        <Text fill="WHITE" layoutX="59.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REGISTRATION" wrappingWidth="244.0048828125">
+            <font>
+                <Font name="System Bold" size="26.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="72.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name: " wrappingWidth="60.3525390625">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="163.0" layoutY="125.0" prefHeight="24.0" prefWidth="181.0" />
+        <Text fill="WHITE" layoutX="71.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Department:">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="204.0" layoutY="178.0" prefHeight="24.0" prefWidth="181.0" />
+        <Text fill="WHITE" layoutX="68.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Session:">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="160.0" layoutY="225.0" />
+        <Text fill="WHITE" layoutX="68.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration No. :">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="239.0" layoutY="278.0" />
+        <Text fill="WHITE" layoutX="69.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blood Group:">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="216.0" layoutY="344.0" />
+        <Text fill="#eeeeee" layoutX="69.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room No :">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="184.0" layoutY="399.0" />
+        <Text fill="WHITE" layoutX="68.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Guardian's Phone No : ">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="287.0" layoutY="456.0" />
+        <Text fill="WHITE" layoutX="70.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone Number :">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="237.0" layoutY="522.0" />
+        <AnchorPane layoutX="1.0" layoutY="85.0" prefHeight="21.0" prefWidth="818.0" style="-fx-background-color: #0589ff;" />
+        <Text fill="WHITE" layoutX="69.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Town :">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <TextField layoutX="209.0" layoutY="575.0" />
+        <Button fx:id="submit" layoutX="546.0" layoutY="612.0" mnemonicParsing="false" onAction="#teacherLogin" style="-fx-background-color: #0589ff;" text="Submit" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="clear" layoutX="437.0" layoutY="612.0" mnemonicParsing="false" onAction="#enterRegistration" style="-fx-background-color: red;" text="Clear" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+      <Button layoutX="671.0" layoutY="612.0" mnemonicParsing="false" onAction="#teacherLogin" prefHeight="35.0" prefWidth="85.0" style="-fx-background-color: Purple;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
